@@ -35,7 +35,8 @@ module.exports.authUser = async(req, res) => {
 
     if (user) {
         if (await bcrypt.compare(req.body.password, user.password)) {
-            return res.status(201).send("Usuario logado");
+            res.cookie('usuario', user._id);
+            return res.status(201).redirect('../home.html');
         }
         return res.status(404).send("Usuario ou senha não encontrado");
     }
