@@ -1,11 +1,15 @@
-const mongoose = require('moongose')
+const mongoose = require("mongoose");
 
 const UserSchema = mongoose.Schema({
     username: String,
     password: String,
     idade: Number,
     genero: String,
-    preferencias: {type: mongoose.Schema.Types.ObjectId, ref: 'preferencias'},
+    preferencias: {
+        time: String,
+        bebida: Number,
+        animacao: Number,
+    },
     telefone: String,
 })
 

@@ -1,0 +1,49 @@
+*{
+    margin:  0 auto;
+    padding: 0;
+    font-family: 'Numans', sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 5vw;
+    position: absolute;
+    margin-top: calc(18vh);
+    width: 100vw;
+
+
+}
+
+input{
+    margin: 10px;
+    background-color: #FF6C6C;
+    color: white;
+    height: 5vh;
+    font-size: 4vh;
+    width: 15vw;
+    border-radius: 5px;
+}
+
+form{
+   padding : 10vh;
+}
+
+#quadrado-verde{
+    background-color: #4CCA75;
+    width: 100vw;
+    height: 50vh;
+}
+    
+#quadrado-amarelo{
+    background-color: #FCF05C;
+    width: 100vw;
+    height: 50vh;
+}
+         
+img{
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -75px;
+    margin-left: -100px;
+}        
