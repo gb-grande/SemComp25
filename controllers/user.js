@@ -35,7 +35,9 @@ module.exports.authUser = async(req, res) => {
 
     if (user) {
         if (await bcrypt.compare(req.body.password, user.password)) {
-            return res.status(201).send("Usuario logado");
+            const token = jwt.sign({'user': user._id}, process.env.ACCESS_KEY);
+            res.cookie('token', token);
+            return res.status(201).redirect('../home.html');
         }
         return res.status(404).send("Usuario ou senha não encontrado");
     }
