@@ -10,6 +10,7 @@ app.use(express.urlencoded({extended: true}));
 const PORT = 1234;
 
 app.use(require('./routes/user'));
+app.use(require('./routes/games'));
 
 mongoose.connect(process.env.CON_STR, {useNewUrlParser: true, useUnifiedTopology: true});
 
