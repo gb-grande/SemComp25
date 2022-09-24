@@ -1,0 +1,24 @@
+{
+  "name": "teamer",
+  "version": "1.0.0",
+  "description": "aplicativo para unir torcedores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orochi3/SemComp25.git"
+  },
+  "keywords": [
+    "futebol",
+    "torcer",
+    "juntar"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Orochi3/SemComp25/issues"
+  },
+  "homepage": "https://github.com/Orochi3/SemComp25#readme"
+}
