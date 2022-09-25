@@ -21,8 +21,8 @@ const db = mongoose.connection;
 // Uso apenas como teste
 app.get('/', (req, res) => {
     const cookie = req.cookies.token;
-
-    if (cookie === undefined) {
+    console.log(cookie);
+    if (cookie === undefined || cookie === "") {
         res.redirect('/login.html');
     } else {
         res.redirect('/home.html');
