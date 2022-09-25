@@ -6,14 +6,13 @@
 }
 
 h1{
-    color: white;
     font-size: 5vw;
     width: 100vw;
 }
 
 input{
     margin: 10px;
-    background-color: #6FB478;
+    background-color: var(--verde2);
     color: white;
     height: 5vh;
     font-size: 4vh;
@@ -22,7 +21,7 @@ input{
 }
 
 select {
-    background-color: #6FB478;
+    background-color: var(--verde2);
     font-size: 4vh;
     color: white;
 }
@@ -32,12 +31,12 @@ form{
 }
 
 #quadrado-verde{
-    background-color: #6FB478;
+    background-color: var(--branco);
     height: 15vh;
 }
     
 #quadrado-amarelo{
-    background-color: #FCF05C;
+    background-color: var(--verde);
 }
 
 label {

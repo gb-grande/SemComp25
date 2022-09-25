@@ -5,8 +5,11 @@
     text-align: center;
 }
 
+body {
+    background-color: var(--verde);
+}
+
 h1{
-    color: white;
     font-size: 5vw;
     position: absolute;
     margin-top: calc(18vh);
@@ -15,7 +18,7 @@ h1{
 
 input{
     margin: 10px;
-    background-color: #6FB478;
+    background-color: var(--verde2);
     color: white;
     font-size: 4vh;
     width: 15vw;
@@ -29,16 +32,13 @@ select {
 }
 
 form{
-   padding : 16vh;
+   padding-top: 16vh;
+   height: 100%;
 }
 
 #quadrado-verde{
-    background-color: #6FB478;
+    background-color: var(--branco);
     height: 50vh;
-}
-    
-#quadrado-amarelo{
-    background-color: #FCF05C;
 }
          
 img{

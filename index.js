@@ -1,11 +1,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cookieParser = require('cookie-parser');
 const app = express();
 require('dotenv').config();
 
 app.use(express.static('public'))
 app.use(express.json())
 app.use(express.urlencoded({extended: true}));
+app.use(cookieParser());
 
 const PORT = 1234;
 
@@ -18,7 +20,13 @@ const db = mongoose.connection;
 
 // Uso apenas como teste
 app.get('/', (req, res) => {
-    res.send("aua");
+    const cookie = req.cookies.token;
+
+    if (cookie === undefined) {
+        res.redirect('/login.html');
+    } else {
+        res.redirect('/home.html');
+    }
 })
 
 
