@@ -3,17 +3,21 @@ body{
     margin: 0px;
 }
 
+*{
+    font-family: 'Numans', sans-serif;
+}
+
 #header{
-    background-color: green;
-    height: 20vh;
+    background-color: #6FB478;
+    height: 15vh;
     text-align: right;
     display: flex;
     justify-content: space-between;
 }
 
 #textos{
-    height: 80vh;
-    background-color: greenyellow;
+    height: 85vh;
+    background-color: #99C5A4;
 }
 
 #texto-1{
@@ -56,7 +60,7 @@ p{
 .button{
     background-color: #008f50;
     border: 2px green solid;
-    height: 100%;
+    height: 80%;
     width: 12vw;
 }
 
