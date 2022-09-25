@@ -1,13 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+
 html, body{
     margin: 0;
     padding: 0px;
-    background-color: rgb(255, 255, 255);
+    background-color: #FFFFE3;
     font-family: 'Nunito', sans-serif;
 }
 
 img{
     width: 100px;
     height: 100px;
+}
+
+.data{
+    width: 200px;
+}
+
+.partida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 2px solid #c9c9b3 ;
+    width: 300px;
 }
 
 #top{
@@ -19,9 +34,20 @@ img{
     font-size: 32px;
 }
 
+#datas{
+    width: 100%;
+}
+
 #campeonato{
     height: 20%;
 }
+
+#horarios{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 
 
