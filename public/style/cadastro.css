@@ -10,17 +10,22 @@ h1{
     width: 100vw;
 }
 
+body {
+    background-color: var(--verde);
+}
+
 input{
     margin: 10px;
     background-color: var(--verde2);
     color: white;
     height: 5vh;
     font-size: 4vh;
-    width: 15vw;
+    width: 31vw;
     border-radius: 5px;
 }
 
 select {
+    width: 31vw;
     background-color: var(--verde2);
     font-size: 4vh;
     color: white;
@@ -35,10 +40,6 @@ form{
     height: 15vh;
 }
     
-#quadrado-amarelo{
-    background-color: var(--verde);
-}
-
 label {
     color: #3d9e4a;
 }
