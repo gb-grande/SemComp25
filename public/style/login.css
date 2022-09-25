@@ -11,39 +11,39 @@ h1{
     position: absolute;
     margin-top: calc(18vh);
     width: 100vw;
-
-
 }
 
 input{
     margin: 10px;
-    background-color: #FF6C6C;
+    background-color: #6FB478;
     color: white;
-    height: 5vh;
     font-size: 4vh;
     width: 15vw;
     border-radius: 5px;
 }
 
+select {
+    background-color: #6FB478;
+    font-size: 4vh;
+    color: white;
+}
+
 form{
-   padding : 10vh;
+   padding : 16vh;
 }
 
 #quadrado-verde{
-    background-color: #4CCA75;
-    width: 100vw;
+    background-color: #6FB478;
     height: 50vh;
 }
     
 #quadrado-amarelo{
     background-color: #FCF05C;
-    width: 100vw;
-    height: 50vh;
 }
          
 img{
     border-radius: 100%;
     position: absolute;
-    margin-top: -75px;
+    margin-top: -100px;
     margin-left: -100px;
 }        
