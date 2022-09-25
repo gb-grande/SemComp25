@@ -1,69 +1,62 @@
-body{
-    padding: 0px;
-    margin: 0px;
-}
-
 *{
     font-family: 'Numans', sans-serif;
-}
-
-#header{
-    background-color: #6FB478;
-    height: 15vh;
-    text-align: right;
-    display: flex;
-    justify-content: space-between;
-}
-
-#textos{
-    height: 85vh;
-    background-color: #99C5A4;
-}
-
-#texto-1{
-    height: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-
-#texto-2{
-    height: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-
-h1{
+    padding: 0px;
     margin: 0px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: font-size 0.25s;
+    margin: auto 1.2em;
+}
+a:hover{
+    font-size: 1.25em;
 }
 
-p{
-    margin-top: 0px;
-    text-align: center;
+body{
+    background-color: var(--verde);
 }
 
-.description{
-    text-align: center;
-    padding-left: 10vw;
-    padding-right: 10vw;
+img{
+    width: 50vw;
+
+
+
 }
 
-#home-button{
-    background-color: #008f50;
-    border: 2px green solid;
-    height: 100%;
-    width: 20%;
-    margin-right: 40%;
+h2{
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 0.8vw;
 }
 
-.button{
-    background-color: #008f50;
-    border: 2px green solid;
-    height: 80%;
-    width: 12vw;
+
+main{
+
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--verde2);
+    margin: 5vh 0;
+
 }
 
-#logo{
-    height: 100%;
+nav{
+    width: 100vw;
+    background-color: var(--branco);
+    display: flex;
+    justify-content: end;
+    
+}
+
+main p{
+    font-size: 4em;
+    margin: 5vh 5vw;
+    color: var(--branco);
+    font-weight: bolder;
+}
+
+#preencher{
+    width: 80vw;
 }
