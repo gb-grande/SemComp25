@@ -1,0 +1,27 @@
+html, body{
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#top{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 218, 51, 0.6);
+    font-size: 32px;
+}
+
+#campeonato{
+    height: 20%;
+}
+
+
+
