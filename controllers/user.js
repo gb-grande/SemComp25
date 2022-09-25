@@ -27,7 +27,7 @@ module.exports.createUser = async(req, res) => {
 
     await user.save();
 
-    return res.status(201).send("Usuario Criado");
+    return res.status(201).redirect('../login.html');telefone
 }
 
 module.exports.authUser = async(req, res) => {
